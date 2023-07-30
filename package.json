@@ -1,5 +1,12 @@
 {
   "name": "react-hooks-store-starter",
+  "keywords": [
+    "react",
+    "react hooks",
+    "react store",
+    "react native store",
+    "react template"
+  ],
   "private": true,
   "version": "0.0.0",
   "type": "module",
