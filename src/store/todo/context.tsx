@@ -1,5 +1,3 @@
-'use client';
-
 import { Dispatch, createContext } from 'react'
 import { TAction } from './actions'
 import initialState, { ITodoState } from './initialState'
