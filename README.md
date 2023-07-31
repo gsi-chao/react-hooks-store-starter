@@ -15,10 +15,24 @@ The store is structured in a way that you can easily add new stores and keep the
 
 ## How to use
 
-1. Create a new store using the template provided in the `src/stores` folder.
-2. Add the Provider to the top of your application, module or component.
-3. Use the *useStore* hook to access the state and the actions.
-4. Use the states and dispatch the actions to mutate the state.
+1. Create a project from a template using a tool like degit or simple clone the repository.
+
+    Clone using degit:
+
+    ```bash
+    npx degit gsi-chao/react-hooks-store-starter test
+    ```
+
+    Clone usign git
+
+    ```bash
+    git clone https://github.com/gsi-chao/react-hooks-store-starter.git
+    ```
+
+2. Create a new store using the template provided in the `src/stores` folder.
+3. Add the Provider to the top of your application, module or component.
+4. Use the *useStore* hook to access the state and the actions.
+5. Use the states and dispatch the actions to mutate the state.
 
 ## How to run
 
